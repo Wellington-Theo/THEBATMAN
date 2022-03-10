@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    
+}
+.container{
+    width: 90vw;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 100%);
+    border: solid 1px grey;
+
+    border-radius: 15px;
+    margin: 5% auto;
+    text-align: center;
+}
+.menu-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+}
+.menu-header > .menu-list{
+    display: flex;
+    list-style-type: none;
+    
+}
+.menu-list li{
+    padding-right: 10px;
+    color: grey;
+    font-weight: 600;
+}
+.menu-icon{
+    width: 40px;
+}
+.icons{
+    width: 20px;
+}
+.date{
+    font-size: 12px;
+    font-weight: bold;
+    color: grey;
+}
+.date::before{
+    width: 100px;
+    height: 2px;
+    background-color: grey;
+    display: inline-block;
+    content: "";
+    margin-right: 10px;
+    margin-bottom: 4px;
+}
+.date::after{
+    width: 100px;
+    height: 2px;
+    background-color: grey;
+    display: inline-block;
+    content: "";
+    margin-left: 10px;
+    margin-bottom: 4px;
+}
+.text{
+    width: 450px;
+    text-align: left;
+    margin-left: 50px;
+
+}
+.slogan{
+    font-size: 100px;
+    font-family: 'League Gothic', sans-serif;
+}
+.tickets{
+    padding: 7px 15px;
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+.containerContent{
+    display: flex;
+    margin-bottom: 10px;
+}
+.videoTrailer{
+    margin-left: 100px;
+}
+.videoTrailer iframe{
+    border: solid 5px black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.batmanLogo{
+    width: 200px;
+}
